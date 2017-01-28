@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  	<meta charset="UTF-8">
+    <title>Carte OSM France avec Layer Switcher</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.20.1/css/ol.css" type="text/css">
+	<link rel="stylesheet" href="LayerSwitcher.css" type="text/css">
+	<script src="http://openlayers.org/en/v3.20.1/build/ol.js"></script>
+	<script src="LayerSwitcher.js"></script>	
+	
+ <style>
+        	 .map {
+		background : #ccffff;
+		}
+
+			
+		
+    </style>
+<script src="Carte_OSM-Fr.js"></script>
+</head>
+  <body onload="init()" style="background: #ccffff";>   
+
+ <div id="Options"; align="center";>
+		<button id="Finistère" onclick="ClicBouton()" style="background: #ffbf80; color:#cc6600; font-weight:700;">Finistère</button>
+</div>
+<div id="map" class="map"></div>
+	
+</body>
+
+</html>
